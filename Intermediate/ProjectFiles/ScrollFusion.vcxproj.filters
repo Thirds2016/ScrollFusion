@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\ScrollFusion.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{C11209C6-FF47-4D9C-B41A-FFEC851461FB}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\ScrollFusion.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\ScrollFusionEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{8A7E7669-10F2-4D1E-A20A-39957012B483}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\ScrollFusion">
+      <UniqueIdentifier>{ED38E0C3-DDE4-4E32-B61E-FB00248735B4}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ScrollFusion\CanvasTileItem.cpp">
+      <Filter>Source\ScrollFusion</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ScrollFusion\CanvasTileItem.h">
+      <Filter>Source\ScrollFusion</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ScrollFusion\Element.cpp">
+      <Filter>Source\ScrollFusion</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ScrollFusion\Element.h">
+      <Filter>Source\ScrollFusion</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ScrollFusion\ElementPawn.cpp">
+      <Filter>Source\ScrollFusion</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ScrollFusion\ElementPawn.h">
+      <Filter>Source\ScrollFusion</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\ScrollFusion\ScrollFusion.Build.cs">
+      <Filter>Source\ScrollFusion</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\ScrollFusion\ScrollFusion.cpp">
+      <Filter>Source\ScrollFusion</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ScrollFusion\ScrollFusion.h">
+      <Filter>Source\ScrollFusion</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ScrollFusion\ScrollFusionCharacter.cpp">
+      <Filter>Source\ScrollFusion</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ScrollFusion\ScrollFusionCharacter.h">
+      <Filter>Source\ScrollFusion</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ScrollFusion\ScrollFusionGameMode.cpp">
+      <Filter>Source\ScrollFusion</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ScrollFusion\ScrollFusionGameMode.h">
+      <Filter>Source\ScrollFusion</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ScrollFusion\ScrollFusionHUD.cpp">
+      <Filter>Source\ScrollFusion</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ScrollFusion\ScrollFusionHUD.h">
+      <Filter>Source\ScrollFusion</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ScrollFusion\ScrollFusionProjectile.cpp">
+      <Filter>Source\ScrollFusion</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ScrollFusion\ScrollFusionProjectile.h">
+      <Filter>Source\ScrollFusion</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
