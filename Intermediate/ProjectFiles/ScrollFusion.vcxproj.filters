@@ -84,4 +84,20 @@
       <Filter>Source\ScrollFusion</Filter>
     </ClInclude>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\ScrollFusion\ScrollFusionCharacterNoWeapon.h">
+      <Filter>Source\ScrollFusion</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ScrollFusion\ScrollFusionGameModeNoWeapon.h">
+      <Filter>Source\ScrollFusion</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\ScrollFusion\ScrollFusionCharacterNoWeapon.cpp">
+      <Filter>Source\ScrollFusion</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ScrollFusion\ScrollFusionGameModeNoWeapon.cpp">
+      <Filter>Source\ScrollFusion</Filter>
+    </ClCompile>
+  </ItemGroup>
 </Project>

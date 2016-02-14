@@ -26,10 +26,19 @@ AScrollFusionCharacter::AScrollFusionCharacter()
 	FirstPersonCameraComponent->RelativeLocation = FVector(0, 0, 64.f); // Position the camera
 	FirstPersonCameraComponent->bUsePawnControlRotation = true;
 
-	Mesh1P = nullptr;
-	FP_Gun = nullptr;
+    // Create a mesh component that will be used when being viewed from a '1st person' view (when controlling this pawn)
+    Mesh1P = CreateDefaultSubobject<USkeletalMeshComponent>(TEXT("CharacterMesh1P"));
+    Mesh1P->SetOnlyOwnerSee(true);
+    Mesh1P->AttachParent = FirstPersonCameraComponent;
+    Mesh1P->bCastDynamicShadow = false;
+    Mesh1P->CastShadow = false;
 
-	//CreateMagicMeshes();
+    // Create a gun mesh component
+    FP_Gun = CreateDefaultSubobject<USkeletalMeshComponent>(TEXT("FP_Gun"));
+    FP_Gun->SetOnlyOwnerSee(true);			// only the owning player will see this mesh
+    FP_Gun->bCastDynamicShadow = false;
+    FP_Gun->CastShadow = false;
+    FP_Gun->AttachTo(Mesh1P, TEXT("GripPoint"), EAttachLocation::SnapToTargetIncludingScale, true);
 
 	// Default offset from the character location for projectiles to spawn
 	GunOffset = FVector(100.0f, 30.0f, 80.0f);
@@ -65,24 +74,6 @@ void AScrollFusionCharacter::SetupPlayerInputComponent(class UInputComponent* In
 	InputComponent->BindAxis("TurnRate", this, &AScrollFusionCharacter::TurnAtRate);
 	InputComponent->BindAxis("LookUp", this, &APawn::AddControllerPitchInput);
 	InputComponent->BindAxis("LookUpRate", this, &AScrollFusionCharacter::LookUpAtRate);
-}
-
-void AScrollFusionCharacter::CreateMagicMeshes()
-{
-	/*
-	// Create a mesh component that will be used when being viewed from a '1st person' view (when controlling this pawn)
-	Mesh1P = CreateDefaultSubobject<USkeletalMeshComponent>(TEXT("CharacterMesh1P"));
-	Mesh1P->SetOnlyOwnerSee(true);
-	Mesh1P->AttachParent = FirstPersonCameraComponent;
-	Mesh1P->bCastDynamicShadow = false;
-	Mesh1P->CastShadow = false;
-
-	// Create a gun mesh component
-	FP_Gun = CreateDefaultSubobject<USkeletalMeshComponent>(TEXT("FP_Gun"));
-	FP_Gun->SetOnlyOwnerSee(true);			// only the owning player will see this mesh
-	FP_Gun->bCastDynamicShadow = false;
-	FP_Gun->CastShadow = false;
-	FP_Gun->AttachTo(Mesh1P, TEXT("GripPoint"), EAttachLocation::SnapToTargetIncludingScale, true);*/
 }
 
 void AScrollFusionCharacter::OnFire()

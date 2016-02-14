@@ -269,9 +269,13 @@
     <ClInclude Include="..\..\Source\ScrollFusion\ScrollFusion.h" />
     <ClCompile Include="..\..\Source\ScrollFusion\ScrollFusionCharacter.cpp" />
     <ClInclude Include="..\..\Source\ScrollFusion\ScrollFusionCharacter.h" />
+    <ClCompile Include="..\..\Source\ScrollFusion\ScrollFusionCharacterNoWeapon.cpp" />
     <ClCompile Include="..\..\Source\ScrollFusion\ScrollFusionGameMode.cpp" />
+    <ClInclude Include="..\..\Source\ScrollFusion\ScrollFusionCharacterNoWeapon.h" />
     <ClInclude Include="..\..\Source\ScrollFusion\ScrollFusionGameMode.h" />
+    <ClCompile Include="..\..\Source\ScrollFusion\ScrollFusionGameModeNoWeapon.cpp" />
     <ClCompile Include="..\..\Source\ScrollFusion\ScrollFusionHUD.cpp" />
+    <ClInclude Include="..\..\Source\ScrollFusion\ScrollFusionGameModeNoWeapon.h" />
     <ClInclude Include="..\..\Source\ScrollFusion\ScrollFusionHUD.h" />
     <ClCompile Include="..\..\Source\ScrollFusion\ScrollFusionProjectile.cpp" />
     <ClInclude Include="..\..\Source\ScrollFusion\ScrollFusionProjectile.h" />

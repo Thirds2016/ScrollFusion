@@ -52,9 +52,6 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Gameplay)
 	class UAnimMontage* FireAnimation;
 
-	UFUNCTION(BlueprintCallable, Category = "Magic")
-		void CreateMagicMeshes();
-
 protected:
 	
 	/** Fires a projectile. */
