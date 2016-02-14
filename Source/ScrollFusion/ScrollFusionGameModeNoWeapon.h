@@ -8,7 +8,7 @@
 /**
  * 
  */
-UCLASS(minimalapi)
+UCLASS()
 class SCROLLFUSION_API AScrollFusionGameModeNoWeapon : public AGameMode
 {
 	GENERATED_BODY()

@@ -1,7 +1,7 @@
 // Copyright 1998-2015 Epic Games, Inc. All Rights Reserved.
 
 #include "ScrollFusion.h"
-#include "ScrollFusionCharacter.h"
+#include "ScrollFusionCharacterNoWeapon.h"
 #include "ScrollFusionProjectile.h"
 #include "Animation/AnimInstance.h"
 #include "GameFramework/InputSettings.h"
@@ -47,19 +47,19 @@ void AScrollFusionCharacterNoWeapon::SetupPlayerInputComponent(class UInputCompo
 	//InputComponent->BindTouch(EInputEvent::IE_Pressed, this, &AScrollFusionCharacter::TouchStarted);
 	if (EnableTouchscreenMovement(InputComponent) == false)
 	{
-		InputComponent->BindAction("Fire", IE_Pressed, this, &AScrollFusionCharacter::OnFire);
+		InputComponent->BindAction("Fire", IE_Pressed, this, &AScrollFusionCharacterNoWeapon::OnFire);
 	}
 
-	InputComponent->BindAxis("MoveForward", this, &AScrollFusionCharacter::MoveForward);
-	InputComponent->BindAxis("MoveRight", this, &AScrollFusionCharacter::MoveRight);
+	InputComponent->BindAxis("MoveForward", this, &AScrollFusionCharacterNoWeapon::MoveForward);
+	InputComponent->BindAxis("MoveRight", this, &AScrollFusionCharacterNoWeapon::MoveRight);
 
 	// We have 2 versions of the rotation bindings to handle different kinds of devices differently
 	// "turn" handles devices that provide an absolute delta, such as a mouse.
 	// "turnrate" is for devices that we choose to treat as a rate of change, such as an analog joystick
 	InputComponent->BindAxis("Turn", this, &APawn::AddControllerYawInput);
-	InputComponent->BindAxis("TurnRate", this, &AScrollFusionCharacter::TurnAtRate);
+	InputComponent->BindAxis("TurnRate", this, &AScrollFusionCharacterNoWeapon::TurnAtRate);
 	InputComponent->BindAxis("LookUp", this, &APawn::AddControllerPitchInput);
-	InputComponent->BindAxis("LookUpRate", this, &AScrollFusionCharacter::LookUpAtRate);
+	InputComponent->BindAxis("LookUpRate", this, &AScrollFusionCharacterNoWeapon::LookUpAtRate);
 }
 
 void AScrollFusionCharacterNoWeapon::OnFire()
@@ -162,9 +162,9 @@ bool AScrollFusionCharacterNoWeapon::EnableTouchscreenMovement(class UInputCompo
 	if (FPlatformMisc::GetUseVirtualJoysticks() || GetDefault<UInputSettings>()->bUseMouseForTouch)
 	{
 		bResult = true;
-		InputComponent->BindTouch(EInputEvent::IE_Pressed, this, &AScrollFusionCharacter::BeginTouch);
-		InputComponent->BindTouch(EInputEvent::IE_Released, this, &AScrollFusionCharacter::EndTouch);
-		InputComponent->BindTouch(EInputEvent::IE_Repeat, this, &AScrollFusionCharacter::TouchUpdate);
+		InputComponent->BindTouch(EInputEvent::IE_Pressed, this, &AScrollFusionCharacterNoWeapon::BeginTouch);
+		InputComponent->BindTouch(EInputEvent::IE_Released, this, &AScrollFusionCharacterNoWeapon::EndTouch);
+		InputComponent->BindTouch(EInputEvent::IE_Repeat, this, &AScrollFusionCharacterNoWeapon::TouchUpdate);
 	}
 	return bResult;
 }

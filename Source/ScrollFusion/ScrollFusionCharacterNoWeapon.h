@@ -14,7 +14,7 @@ class AScrollFusionCharacterNoWeapon : public ACharacter
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
 	class UCameraComponent* FirstPersonCameraComponent;
 public:
-	AScrollFusionCharacter();
+	AScrollFusionCharacterNoWeapon();
 
 	/** Magic 0 or 1 determines ability to fire */
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Magic")
@@ -94,8 +94,6 @@ protected:
 	bool EnableTouchscreenMovement(UInputComponent* InputComponent);
 
 public:
-	/** Returns Mesh1P subobject **/
-	FORCEINLINE class USkeletalMeshComponent* GetMesh1P() const { return Mesh1P; }
 	/** Returns FirstPersonCameraComponent subobject **/
 	FORCEINLINE class UCameraComponent* GetFirstPersonCameraComponent() const { return FirstPersonCameraComponent; }
 
