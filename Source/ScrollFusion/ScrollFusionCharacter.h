@@ -1,6 +1,7 @@
 // Copyright 1998-2015 Epic Games, Inc. All Rights Reserved.
 #pragma once
 #include "GameFramework/Character.h"
+#include "ProjectileElementFire.h"
 #include "ScrollFusionCharacter.generated.h"
 
 class UInputComponent;
@@ -42,7 +43,7 @@ public:
 
 	/** Projectile class to spawn */
 	UPROPERTY(EditDefaultsOnly, Category = Projectile)
-	TSubclassOf<class AScrollFusionProjectile> ProjectileClass;
+	TSubclassOf<class AProjectileElementFire> ProjectileClass;
 
 	/** Sound to play each time we fire */
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Gameplay)
