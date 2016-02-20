@@ -25,10 +25,6 @@ class AScrollFusionCharacter : public ACharacter
 public:
 	AScrollFusionCharacter();
 
-	/** Magic 0 or 1 determines ability to fire */
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Magic")
-	uint8 magicLevel;
-
 	/** Base turn rate, in deg/sec. Other scaling may affect final turn rate. */
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera)
 	float BaseTurnRate;
@@ -43,7 +39,7 @@ public:
 
 	/** Projectile class to spawn */
 	UPROPERTY(EditDefaultsOnly, Category = Projectile)
-	TSubclassOf<class AProjectileElementFire> ProjectileClass;
+	TSubclassOf<class AScrollFusionProjectile> ProjectileClass;
 
 	/** Sound to play each time we fire */
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Gameplay)
@@ -53,10 +49,11 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Gameplay)
 	class UAnimMontage* FireAnimation;
 
-protected:
-	
 	/** Fires a projectile. */
+	UFUNCTION(BlueprintNativeEvent, Category="Projectile")
 	void OnFire();
+
+protected:
 
 	/** Handles moving forward/backward */
 	void MoveForward(float Val);

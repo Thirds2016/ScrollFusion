@@ -9,7 +9,7 @@ AProjectileElementFire::AProjectileElementFire() : AScrollFusionProjectile() {
 	Fire = FireFinder.Object;
 	if (GetWorld() != nullptr)
 	UGameplayStatics::SpawnEmitterAtLocation(GetWorld(), Fire, FVector(0, 0, 100));
-	else 
+	else {}
 }
 
 void AProjectileElementFire::OnHit(AActor* OtherActor, UPrimitiveComponent* OtherComp, FVector NormalImpulse, const FHitResult& Hit) {

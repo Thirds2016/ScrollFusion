@@ -76,7 +76,7 @@ void AScrollFusionCharacter::SetupPlayerInputComponent(class UInputComponent* In
 	InputComponent->BindAxis("LookUpRate", this, &AScrollFusionCharacter::LookUpAtRate);
 }
 
-void AScrollFusionCharacter::OnFire()
+void AScrollFusionCharacter::OnFire_Implementation()
 { 
 	if (Mesh1P != nullptr) {
 		// try and fire a projectile
@@ -90,7 +90,7 @@ void AScrollFusionCharacter::OnFire()
 			if (World != NULL)
 			{
 				// spawn the projectile at the muzzle
-				World->SpawnActor<AProjectileElementFire>(ProjectileClass, SpawnLocation, SpawnRotation);
+				World->SpawnActor<AScrollFusionProjectile>(ProjectileClass, SpawnLocation, SpawnRotation);
 			}
 		}
 

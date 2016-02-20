@@ -265,9 +265,7 @@
     <ClCompile Include="..\..\Source\ScrollFusion\ElementPawn.cpp" />
     <ClInclude Include="..\..\Source\ScrollFusion\ElementPawn.h" />
     <None Include="..\..\Source\ScrollFusion\ScrollFusion.Build.cs" />
-    <ClCompile Include="..\..\Source\ScrollFusion\ProjectileElementFire.cpp" />
     <ClCompile Include="..\..\Source\ScrollFusion\ScrollFusion.cpp" />
-    <ClInclude Include="..\..\Source\ScrollFusion\ProjectileElementFire.h" />
     <ClInclude Include="..\..\Source\ScrollFusion\ScrollFusion.h" />
     <ClCompile Include="..\..\Source\ScrollFusion\ScrollFusionCharacter.cpp" />
     <ClInclude Include="..\..\Source\ScrollFusion\ScrollFusionCharacter.h" />
