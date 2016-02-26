@@ -27,7 +27,7 @@ AScrollFusionProjectile::AScrollFusionProjectile()
 	ProjectileMovement->bRotationFollowsVelocity = true;
 	ProjectileMovement->bShouldBounce = true;
 
-	// Die after 3 seconds by default
+	// Die after 6 seconds by default
 	InitialLifeSpan = 6.0f;
 }
 
