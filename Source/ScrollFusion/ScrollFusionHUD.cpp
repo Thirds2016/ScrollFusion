@@ -10,10 +10,6 @@ AScrollFusionHUD::AScrollFusionHUD() : screenCentre(FVector2D()), magicElementsT
 	// Set the crosshair texture
 	static ConstructorHelpers::FObjectFinder<UTexture2D> crosshairTexObj(TEXT("/Game/HUD/CrosshairTex"));
 	crosshairTex = crosshairTexObj.Object;
-
-	// Set the magic counter textures
-	static ConstructorHelpers::FObjectFinder<UTexture2D> waterTexObj(TEXT("/Game/HUD/WaterHUD"));
-	magicElementsTex[0] = waterTexObj.Object;
 }
 
 void AScrollFusionHUD::DrawHUD()
@@ -28,8 +24,5 @@ void AScrollFusionHUD::DrawHUD()
 	FCanvasTileItem CrosshairTileItem(CrosshairDrawPosition, crosshairTex->Resource, FLinearColor::White);
 	CrosshairTileItem.BlendMode = SE_BLEND_Translucent;
 	Canvas->DrawItem(CrosshairTileItem);
-	FCanvasTileItem m(CrosshairDrawPosition, magicElementsTex[0]->Resource, FLinearColor::White);
-	m.BlendMode = SE_BLEND_Translucent;
-	Canvas->DrawItem(m);
 }
 
