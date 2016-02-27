@@ -6,6 +6,8 @@
 UENUM(BlueprintType)
 enum class ESpellType : uint8
 {
+	// ST_ prefix means 'Spell Type'
+	ST_None		UMETA(DisplayName = "No Spell"),
 	ST_Water 	UMETA(DisplayName = "Rank 1: Water"),
 	ST_Fire 	UMETA(DisplayName = "Rank 1: Fire"),
 };
