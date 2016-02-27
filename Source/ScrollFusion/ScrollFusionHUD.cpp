@@ -5,7 +5,7 @@
 #include "Engine/Canvas.h"
 #include "TextureResource.h"
 
-AScrollFusionHUD::AScrollFusionHUD() : screenCentre(FVector2D()), magicElementsTex()
+AScrollFusionHUD::AScrollFusionHUD() : screenCentre(FVector2D())
 {
 	// Set the crosshair texture
 	static ConstructorHelpers::FObjectFinder<UTexture2D> crosshairTexObj(TEXT("/Game/HUD/CrosshairTex"));
