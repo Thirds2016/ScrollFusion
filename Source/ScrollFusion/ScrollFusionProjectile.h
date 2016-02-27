@@ -3,6 +3,13 @@
 #include "GameFramework/Actor.h"
 #include "ScrollFusionProjectile.generated.h"
 
+UENUM(BlueprintType)
+enum class ESpellType : uint8
+{
+	ST_Water 	UMETA(DisplayName = "Rank 1: Water"),
+	ST_Fire 	UMETA(DisplayName = "Rank 1: Fire"),
+};
+
 UCLASS(config=Game)
 class AScrollFusionProjectile : public AActor
 {
