@@ -90,7 +90,7 @@ void AScrollFusionCharacter::OnFire_Implementation()
 			if (World != NULL)
 			{
 				// spawn the projectile at the muzzle
-				World->SpawnActor<AScrollFusionProjectile>(ProjectileClass, SpawnLocation, SpawnRotation);
+				projectile = World->SpawnActor<AScrollFusionProjectile>(ProjectileClass, SpawnLocation, SpawnRotation);
 			}
 		}
 

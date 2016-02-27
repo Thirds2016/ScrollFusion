@@ -49,6 +49,10 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Gameplay)
 	class UAnimMontage* FireAnimation;
 
+	/** Last projectile fired */
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Gameplay)
+	class AScrollFusionProjectile* projectile;
+
 	/** Fires a projectile. */
 	UFUNCTION(BlueprintNativeEvent, Category="Projectile")
 	void OnFire();
