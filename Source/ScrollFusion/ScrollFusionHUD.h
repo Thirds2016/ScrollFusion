@@ -17,7 +17,7 @@ public:
 private:
 	TArray<FCanvasTileItem*>* canvasTileItems;
 	UTexture2D* crosshairTex;
-	UTexture2D* inventoryTex;
+	UTexture2D* magicElementsTex[4];
 	FVector2D screenCentre;
 };
 
