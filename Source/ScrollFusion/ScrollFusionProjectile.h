@@ -4,6 +4,17 @@
 #include "ScrollFusionProjectile.generated.h"
 
 UENUM(BlueprintType)
+enum class EElement : uint8
+{
+	// EL_ prefix means 'Element'
+	EL_None		UMETA(DisplayName = "No Element"),
+	EL_Water 	UMETA(DisplayName = "Water"),
+	EL_Fire 	UMETA(DisplayName = "Fire"),
+	EL_Earth 	UMETA(DisplayName = "Earth"),
+	EL_Air 	UMETA(DisplayName = "Air"),
+};
+
+UENUM(BlueprintType)
 enum class ESpellType : uint8
 {
 	// ST_ prefix means 'Spell Type'
