@@ -2,7 +2,7 @@
 Scroll Fusion is a magic-based FPS-type game.
 
 # Binaries
-To obtain a binary for Scroll Fusion, there is a client download on the [Scroll Fusion Website](scrollfusion.co.uk) (click the '.bat and .exe' button), however this is likely to be out of date.
+To obtain a binary for Scroll Fusion, there is a client download on the [Scroll Fusion Website](http://scrollfusion.co.uk) (click the '.bat and .exe' button), however this is likely to be out of date.
 I highly suggest that you fork a copy to your account and compile the UE4/VS2015 project from source code.
 
 # Versions
