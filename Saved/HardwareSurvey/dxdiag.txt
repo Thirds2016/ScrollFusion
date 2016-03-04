@@ -1,7 +1,7 @@
 ------------------
 System Information
 ------------------
-      Time of this report: 2/2/2016, 16:11:16
+      Time of this report: 3/4/2016, 16:38:48
              Machine name: OLIS-LAPTOP
          Operating System: Windows 10 Home 64-bit (10.0, Build 10240) (10240.th1.160104-1507)
                  Language: English (Regional Setting: English)
@@ -11,7 +11,7 @@ System Information
                 Processor: Intel(R) Core(TM) i5-5200U CPU @ 2.20GHz (4 CPUs), ~2.2GHz
                    Memory: 12288MB RAM
       Available OS Memory: 12210MB RAM
-                Page File: 7507MB used, 6559MB available
+                Page File: 5205MB used, 8860MB available
               Windows Dir: C:\WINDOWS
           DirectX Version: 12
       DX Setup Parameters: Not found
@@ -21,6 +21,7 @@ System Information
                  Miracast: Available, with HDCP
 Microsoft Graphics Hybrid: Not Supported
            DxDiag Version: 10.00.10240.16384 64bit Unicode
+  DxDiag Previously: Crashed in DirectInput (stage 1). Re-running DxDiag with "dontskip" command line parameter or choosing not to bypass information gathering when prompted might result in DxDiag successfully obtaining this information
 
 ------------
 DxDiag Notes
@@ -29,7 +30,7 @@ DxDiag Notes
       Display Tab 2: No problems found.
         Sound Tab 1: No problems found.
         Sound Tab 2: No problems found.
-          Input Tab: No problems found.
+          Input Tab: 
 
 --------------------
 DirectX Debug Levels
@@ -312,91 +313,11 @@ Number of Devices: 2
 -------------------
 DirectInput Devices
 -------------------
-      Device Name: Mouse
-         Attached: 1
-    Controller ID: n/a
-Vendor/Product ID: n/a
-        FF Driver: n/a
-
-      Device Name: Keyboard
-         Attached: 1
-    Controller ID: n/a
-Vendor/Product ID: n/a
-        FF Driver: n/a
-
-      Device Name: 2.4G Keyboard Mouse
-         Attached: 1
-    Controller ID: 0x0
-Vendor/Product ID: 0x062A, 0x4101
-        FF Driver: n/a
-
-      Device Name: HP Wireless Button Driver
-         Attached: 1
-    Controller ID: 0x0
-Vendor/Product ID: 0x0001, 0x0001
-        FF Driver: n/a
-
-      Device Name: 2.4G Keyboard Mouse
-         Attached: 1
-    Controller ID: 0x0
-Vendor/Product ID: 0x062A, 0x4101
-        FF Driver: n/a
-
-      Device Name: 2.4G Keyboard Mouse
-         Attached: 1
-    Controller ID: 0x0
-Vendor/Product ID: 0x062A, 0x4101
-        FF Driver: n/a
-
 Poll w/ Interrupt: No
 
 -----------
 USB Devices
 -----------
-+ USB Root Hub (xHCI)
-| Vendor/Product ID: 0x8086, 0x9CB1
-| Matching Device ID: USB\ROOT_HUB30
-| Service: USBHUB3
-| Driver: USBHUB3.SYS, 11/25/2015 05:40:09, 516448 bytes
-| 
-+-+ USB Composite Device
-| | Vendor/Product ID: 0x062A, 0x4101
-| | Location: Port_#0006.Hub_#0001
-| | Matching Device ID: USB\COMPOSITE
-| | Service: usbccgp
-| | Driver: usbccgp.sys, 7/10/2015 05:07:34, 159072 bytes
-| | 
-| +-+ USB Input Device
-| | | Vendor/Product ID: 0x062A, 0x4101
-| | | Location: 0000.0014.0000.006.000.000.000.000.000
-| | | Matching Device ID: USB\Class_03&SubClass_01
-| | | Service: HidUsb
-| | | Driver: hidusb.sys, 7/10/2015 03:21:00, 38400 bytes
-| | | Driver: hidclass.sys, 7/10/2015 03:21:05, 153088 bytes
-| | | Driver: hidparse.sys, 7/10/2015 03:20:56, 39936 bytes
-| | | 
-| | +-+ HID Keyboard Device
-| | | | Vendor/Product ID: 0x062A, 0x4101
-| | | | Matching Device ID: HID_DEVICE_SYSTEM_KEYBOARD
-| | | | Service: kbdhid
-| | | | Driver: kbdhid.sys, 7/10/2015 03:20:49, 36864 bytes
-| | | | Driver: kbdclass.sys, 7/10/2015 05:07:46, 62304 bytes
-| | | 
-| +-+ USB Input Device
-| | | Vendor/Product ID: 0x062A, 0x4101
-| | | Location: 0000.0014.0000.006.000.000.000.000.000
-| | | Matching Device ID: USB\Class_03&SubClass_01
-| | | Service: HidUsb
-| | | Driver: hidusb.sys, 7/10/2015 03:21:00, 38400 bytes
-| | | Driver: hidclass.sys, 7/10/2015 03:21:05, 153088 bytes
-| | | Driver: hidparse.sys, 7/10/2015 03:20:56, 39936 bytes
-| | | 
-| | +-+ HID-compliant mouse
-| | | | Vendor/Product ID: 0x062A, 0x4101
-| | | | Matching Device ID: HID_DEVICE_SYSTEM_MOUSE
-| | | | Service: mouhid
-| | | | Driver: mouhid.sys, 7/10/2015 03:20:52, 32256 bytes
-| | | | Driver: mouclass.sys, 7/10/2015 05:07:41, 59232 bytes
 
 ----------------
 Gameport Devices
@@ -405,247 +326,12 @@ Gameport Devices
 ------------
 PS/2 Devices
 ------------
-+ Standard PS/2 Keyboard
-| Matching Device ID: *PNP0303
-| Service: i8042prt
-| Driver: i8042prt.sys, 7/10/2015 03:20:52, 114688 bytes
-| Driver: kbdclass.sys, 7/10/2015 05:07:46, 62304 bytes
-| 
-+ Synaptics SMBus TouchPad
-| Matching Device ID: acpi\syn1ec0
-| Upper Filters: SynTP
-| Service: i8042prt
-| Driver: SynTP.sys, 10/16/2015 15:23:07, 615608 bytes
-| Driver: Smb_driver_Intel_Aux.sys, 10/16/2015 15:22:54, 44216 bytes
-| Driver: Smb_driver_AMDASF_Aux.sys, 10/16/2015 15:22:54, 42184 bytes
-| Driver: SynTPAPI.dll, 10/16/2015 15:23:07, 269000 bytes
-| Driver: SynCOM.dll, 10/16/2015 15:22:58, 766136 bytes
-| Driver: SynTPRes.dll, 10/16/2015 15:23:08, 19200184 bytes
-| Driver: SynTPCpl.dll, 10/16/2015 15:23:08, 3922616 bytes
-| Driver: SynCntxt.rtf, 10/16/2015 15:22:58, 12598980 bytes
-| Driver: SynZMetr.exe, 10/16/2015 15:23:10, 1887944 bytes
-| Driver: SynMood.exe, 10/16/2015 15:23:01, 1912504 bytes
-| Driver: SynTPEnh.exe, 10/16/2015 15:23:08, 3945656 bytes
-| Driver: Tutorial.exe, 10/16/2015 15:23:10, 1899208 bytes
-| Driver: InstNT.exe, 10/16/2015 15:22:54, 307384 bytes
-| Driver: SynISDLL.dll, 10/16/2015 15:23:00, 339144 bytes
-| Driver: SynUnst.ini, 10/16/2015 15:23:09, 1652238 bytes
-| Driver: SynRemoveUserSettings.dat, 10/16/2015 15:23:03, 1315 bytes
-| Driver: SynTPHelper.exe, 10/16/2015 15:23:08, 211640 bytes
-| Driver: SynTPEnhService.exe, 10/16/2015 15:23:08, 246472 bytes
-| Driver: SynReflash.exe, 10/16/2015 15:23:03, 1337032 bytes
-| Driver: SynPivotRotate.mpg, 4/10/2009 01:04:14, 770663 bytes
-| Driver: SynChiralRotate.mpg, 9/17/2008 21:13:08, 382277 bytes
-| Driver: SynFlick.mpg, 9/3/2008 19:27:28, 737975 bytes
-| Driver: SynPinch.mpg, 9/3/2008 19:27:28, 286463 bytes
-| Driver: SynMomentum.mpg, 9/3/2008 19:27:28, 246230 bytes
-| Driver: SynLinearVHScroll.mpg, 9/3/2008 19:27:28, 929103 bytes
-| Driver: SynChiralVHScroll.mpg, 9/3/2008 19:27:28, 1620778 bytes
-| Driver: SynTwoFingerVHScroll.mpg, 3/16/2009 17:44:00, 746464 bytes
-| Driver: SynPivotRotate_ChiralRotate.mpg, 4/10/2009 01:04:14, 1142810 bytes
-| Driver: SynThreeFingerFlick.mpg, 3/16/2009 17:44:00, 633621 bytes
-| Driver: SynThreeFingersDown.mpg, 3/16/2009 17:44:00, 215907 bytes
-| Driver: SynTwistRotate.mpg, 3/3/2011 23:28:40, 1826816 bytes
-| Driver: SynChiralTwistRotate.mpg, 3/7/2011 23:39:22, 2998272 bytes
-| Driver: StaticImg.html, 12/18/2009 17:23:12, 968 bytes
-| Driver: StaticImg.png, 12/14/2009 19:49:44, 107143 bytes
-| Driver: SynSysDetect.js, 7/10/2013 16:48:44, 1481 bytes
-| Driver: Syn2FingerScrolling.wmv, 12/17/2013 20:47:26, 650659 bytes
-| Driver: Syn3FingerFlick.wmv, 12/17/2013 20:47:28, 774019 bytes
-| Driver: Syn4FingerFlick.wmv, 2/6/2014 02:31:30, 795115 bytes
-| Driver: Syn4FFlickVNB.wmv, 10/16/2015 15:22:56, 381040 bytes
-| Driver: SynSmartSense.wmv, 12/13/2012 18:59:14, 370121 bytes
-| Driver: SynSmartSenseNB.wmv, 10/16/2015 15:23:05, 670555 bytes
-| Driver: Syn4FingerFlickUpDown.wmv, 12/17/2013 20:47:28, 1264895 bytes
-| Driver: Syn4FingerFlickUpDownNB.wmv, 10/16/2015 15:22:57, 711685 bytes
-| Driver: Syn4FingerFlickLeftRight.wmv, 12/17/2013 20:47:28, 1201694 bytes
-| Driver: Syn4FingerFlickLeftRightNB.wmv, 10/16/2015 15:22:57, 711655 bytes
-| Driver: Syn3FingerPress.wmv, 12/17/2013 20:47:28, 149361 bytes
-| Driver: SynEdgeMotion.wmv, 12/17/2013 20:47:30, 790425 bytes
-| Driver: SynLinearScrolling.wmv, 12/17/2013 20:47:30, 486299 bytes
-| Driver: SynMomentum.wmv, 12/17/2013 20:47:32, 231541 bytes
-| Driver: SynMomentumScrolling.wmv, 12/17/2013 20:47:32, 1513885 bytes
-| Driver: SynPinchZoom.wmv, 12/17/2013 20:47:32, 361085 bytes
-| Driver: SynBlackScreen.wmv, 3/16/2012 18:27:44, 14729 bytes
-| Driver: SynPivotRotate.wmv, 12/17/2013 20:47:32, 609629 bytes
-| Driver: SynTwistRotate.wmv, 12/17/2013 20:47:34, 535667 bytes
-| Driver: SynCoverGesture.wmv, 12/17/2013 20:47:30, 633185 bytes
-| Driver: SynChiralRotate.wmv, 12/17/2013 20:47:30, 321969 bytes
-| Driver: SynChiralScrolling.wmv, 12/17/2013 20:47:30, 1776645 bytes
-| Driver: SynCoastingScrolling.wmv, 12/17/2013 20:47:30, 880823 bytes
-| Driver: SynPointing.wmv, 12/17/2013 20:47:32, 89721 bytes
-| Driver: SynPalmCheck.wmv, 12/17/2013 20:47:32, 278039 bytes
-| Driver: SynSensitivity.wmv, 12/17/2013 20:47:32, 183903 bytes
-| Driver: SynWindowConstrained.wmv, 12/17/2013 20:47:34, 250401 bytes
-| Driver: SynSlowMotion.wmv, 12/17/2013 20:47:32, 255951 bytes
-| Driver: SynConstrainedMotion.wmv, 12/17/2013 20:47:30, 1174655 bytes
-| Driver: SynTapping.wmv, 1/8/2014 00:17:42, 67389 bytes
-| Driver: SynButtons.wmv, 12/17/2013 20:47:30, 190451 bytes
-| Driver: SynTouchStykSelect.wmv, 12/17/2013 20:47:34, 84183 bytes
-| Driver: SynTouchStykButton.wmv, 12/17/2013 20:47:34, 95259 bytes
-| Driver: SynTouchStykSensitivity.wmv, 12/17/2013 20:47:34, 183909 bytes
-| Driver: SynEdgeMotionDragging.wmv, 12/17/2013 20:47:30, 174015 bytes
-| Driver: SynEdgeMotionFixedSpeed.wmv, 12/17/2013 20:47:30, 174015 bytes
-| Driver: SynEdgeMotionPointing.wmv, 12/17/2013 20:47:30, 157579 bytes
-| Driver: SynEdgeMotionPressure.wmv, 12/17/2013 20:47:30, 67539 bytes
-| Driver: SynNoButtons.wmv, 12/17/2013 20:47:32, 28715 bytes
-| Driver: SynTapZones.wmv, 12/17/2013 20:47:34, 215105 bytes
-| Driver: SynLinearHScrolling.wmv, 12/17/2013 20:47:30, 527389 bytes
-| Driver: Syn2FingerHScrolling.wmv, 12/17/2013 20:47:26, 626005 bytes
-| Driver: SynTapHoldToDrag.wmv, 12/17/2013 20:47:34, 62001 bytes
-| Driver: SynTapLockingDrag.wmv, 12/17/2013 20:47:34, 95259 bytes
-| Driver: Syn1FingerClickNB.wmv, 12/17/2013 20:47:24, 141143 bytes
-| Driver: Syn1FingerClickDrag.wmv, 12/17/2013 20:47:24, 338125 bytes
-| Driver: Syn2FingerClickDrag.wmv, 12/17/2013 20:47:26, 471371 bytes
-| Driver: Syn2FingerFlickNB.wmv, 12/17/2013 20:47:26, 675403 bytes
-| Driver: Syn2FingerFlickLR.wmv, 12/17/2013 20:47:26, 502795 bytes
-| Driver: Syn2FingerHScrollingNB.wmv, 12/17/2013 20:47:26, 617787 bytes
-| Driver: Syn2FingerScrollingNB.wmv, 12/17/2013 20:47:26, 634223 bytes
-| Driver: Syn3FingerFlickNB.wmv, 12/17/2013 20:47:28, 749365 bytes
-| Driver: Syn3FingerPressNB.wmv, 12/17/2013 20:47:28, 141143 bytes
-| Driver: Syn4FingerFlickNB.wmv, 10/16/2015 15:22:57, 723930 bytes
-| Driver: SynButtonsNB.wmv, 12/17/2013 20:47:30, 182233 bytes
-| Driver: SynChiralRotateNB.wmv, 10/16/2015 15:22:58, 356580 bytes
-| Driver: SynChiralScrollingNB.wmv, 10/16/2015 15:22:58, 2805670 bytes
-| Driver: SynCoastingScrollingNB.wmv, 10/16/2015 15:22:58, 1532130 bytes
-| Driver: SynCoverGestureNB.wmv, 12/17/2013 20:47:30, 633185 bytes
-| Driver: SynEdgeMotionDraggingNB.wmv, 10/16/2015 15:22:59, 172875 bytes
-| Driver: SynEdgeMotionFixedSpeedNB.wmv, 10/16/2015 15:22:59, 185120 bytes
-| Driver: SynEdgeMotionPointingNB.wmv, 10/16/2015 15:22:59, 160630 bytes
-| Driver: SynEdgeMotionPressureNB.wmv, 10/16/2015 15:22:59, 142023 bytes
-| Driver: SynLinearHScrollingNB.wmv, 10/16/2015 15:23:00, 919820 bytes
-| Driver: SynMomentumScrollingNB.wmv, 10/16/2015 15:23:01, 928929 bytes
-| Driver: SynPinchZoomNB.wmv, 10/16/2015 15:23:02, 834947 bytes
-| Driver: SynPivotRotateNB.wmv, 12/17/2013 20:47:32, 535667 bytes
-| Driver: SynTapHoldToDragNB.wmv, 10/16/2015 15:23:05, 130279 bytes
-| Driver: SynTapLockingDragNB.wmv, 10/16/2015 15:23:05, 212515 bytes
-| Driver: SynTwistRotateNB.wmv, 10/16/2015 15:23:08, 821920 bytes
-| Driver: SynPointingNB.wmv, 10/16/2015 15:23:03, 177285 bytes
-| Driver: Syn2FingerMomentumVHScrolling.wmv, 11/11/2010 21:15:02, 895723 bytes
-| Driver: Syn2FingerMomentumVHScrollingNB.wmv, 10/16/2015 15:22:54, 1645313 bytes
-| Driver: Syn2FingerMomentumVScrolling_win8.wmv, 8/28/2012 00:34:58, 597933 bytes
-| Driver: Syn2FingerMomentumVScrollingNB_win8.wmv, 8/28/2012 00:34:58, 586882 bytes
-| Driver: Syn2FingerMomentumHScrolling_win8.wmv, 8/28/2012 00:34:58, 575831 bytes
-| Driver: Syn2FingerMomentumHScrollingNB_win8.wmv, 10/16/2015 15:22:54, 1079005 bytes
-| Driver: Syn2FingerVHCoasting.wmv, 12/17/2013 20:47:26, 1794763 bytes
-| Driver: Syn2FingerVHCoastingNB.wmv, 10/16/2015 15:22:55, 2266890 bytes
-| Driver: Syn2FingerVCoasting_win8.wmv, 12/17/2013 20:47:26, 919145 bytes
-| Driver: Syn2FingerHCoasting_win8.wmv, 12/17/2013 20:47:28, 1003421 bytes
-| Driver: Syn2FingerVCoastingNB_win8.wmv, 10/16/2015 15:22:54, 1311690 bytes
-| Driver: Syn2FingerHCoastingNB_win8.wmv, 10/16/2015 15:22:54, 1397405 bytes
-| Driver: SynMomentumVHScrolling.wmv, 12/17/2013 20:47:32, 1408837 bytes
-| Driver: SynMomentumVHScrollingNB.wmv, 10/16/2015 15:23:01, 1774529 bytes
-| Driver: SynVHCoasting.wmv, 12/17/2013 20:47:34, 1955445 bytes
-| Driver: Syn2FingerHScrolling_win8.wmv, 1/8/2013 07:52:54, 432126 bytes
-| Driver: Syn2FingerHScrollingNB_win8.wmv, 10/16/2015 15:22:54, 968800 bytes
-| Driver: SynChiralScrolling_win8.wmv, 12/25/2012 07:27:56, 819031 bytes
-| Driver: SynChiralScrollingNB_win8.wmv, 10/16/2015 15:22:58, 2805670 bytes
-| Driver: SynLinearHScrolling_win8.wmv, 12/25/2012 07:27:56, 376913 bytes
-| Driver: SynLinearHScrollingNB_win8.wmv, 10/16/2015 15:23:00, 919820 bytes
-| Driver: SynLinearScrolling_win8.wmv, 12/25/2012 07:27:56, 354811 bytes
-| Driver: SynLinearScrollingNB_win8.wmv, 10/16/2015 15:23:01, 797370 bytes
-| Driver: SynPivotRotate_win8.wmv, 12/25/2012 07:27:56, 498534 bytes
-| Driver: SynPivotRotateNB_win8.wmv, 10/16/2015 15:23:02, 870900 bytes
-| Driver: SynTwistRotate_win8.wmv, 12/25/2012 07:27:56, 421135 bytes
-| Driver: SynTwistRotateNB_win8.wmv, 10/16/2015 15:23:09, 821920 bytes
-| Driver: SynEdgePulls.wmv, 12/17/2013 20:47:30, 1247447 bytes
-| Driver: Syn4FingerFlick_win8.wmv, 7/27/2012 23:21:28, 598023 bytes
-| Driver: Syn4FingerFlickNB_win8.wmv, 7/27/2012 23:21:28, 564870 bytes
-| Driver: Syn2FingerScrolling.html, 6/25/2013 19:20:38, 3216 bytes
-| Driver: Syn2FingerFlick.html, 6/25/2013 19:20:38, 3212 bytes
-| Driver: Syn3FingerFlick.html, 6/25/2013 19:20:38, 3212 bytes
-| Driver: Syn4FingerFlick.html, 6/25/2013 19:20:38, 3212 bytes
-| Driver: Syn4FingerFlickUpDown.html, 6/25/2013 19:20:38, 3218 bytes
-| Driver: Syn4FingerFlickLeftRight.html, 6/25/2013 19:20:38, 3221 bytes
-| Driver: Syn3FingerPress.html, 6/25/2013 19:20:38, 3212 bytes
-| Driver: SynEdgeMotion.html, 6/25/2013 19:20:38, 3210 bytes
-| Driver: SynMomentum.html, 6/25/2013 19:20:38, 3208 bytes
-| Driver: SynPinchZoom.html, 6/25/2013 19:20:38, 3209 bytes
-| Driver: SynRotating.html, 6/25/2013 19:20:38, 3208 bytes
-| Driver: SynTwistRotate.html, 6/25/2013 19:20:38, 3211 bytes
-| Driver: SynCoverGesture.html, 6/25/2013 19:20:38, 3212 bytes
-| Driver: SynAccessibility.html, 6/25/2013 19:20:38, 3221 bytes
-| Driver: SynSmartSense.html, 6/25/2013 19:20:38, 3210 bytes
-| Driver: SynButtons.html, 6/25/2013 19:20:38, 3207 bytes
-| Driver: SynClicking.html, 6/25/2013 19:20:38, 3208 bytes
-| Driver: SynMultiFingerGestures.html, 6/25/2013 19:20:38, 3219 bytes
-| Driver: SynPalmCheck.html, 6/25/2013 19:20:38, 3209 bytes
-| Driver: SynPointing.html, 6/25/2013 19:20:38, 3208 bytes
-| Driver: SynScrolling.html, 6/25/2013 19:20:38, 3209 bytes
-| Driver: SynSensitivity.html, 6/25/2013 19:20:38, 3211 bytes
-| Driver: SynTapping.html, 6/25/2013 19:20:38, 3207 bytes
-| Driver: SynTouchStykButton.html, 6/25/2013 19:20:38, 3215 bytes
-| Driver: SynTouchStykSelect.html, 6/25/2013 19:20:38, 3215 bytes
-| Driver: SynTouchStykSensitivity.html, 6/25/2013 19:20:38, 3220 bytes
-| Driver: SynScrollingVertical.html, 6/25/2013 19:20:38, 3217 bytes
-| Driver: SynScrollingHorizontal.html, 6/25/2013 19:20:38, 3219 bytes
-| Driver: SynScrollingChiral.html, 6/25/2013 19:20:38, 3215 bytes
-| Driver: SynLockingDrags.html, 6/25/2013 19:20:38, 3212 bytes
-| Driver: SynEdgePulls.html, 6/25/2013 19:20:38, 3162 bytes
-| Driver: Syn2FingerScrolling_win8.wmv, 1/8/2013 07:52:54, 398973 bytes
-| Driver: Syn2FingerScrollingNB_win8.wmv, 10/16/2015 15:22:54, 940613 bytes
-| Driver: SynTappingNB.wmv, 10/16/2015 15:23:05, 118535 bytes
-| Driver: Syn2FingerRightClickNB.wmv, 10/16/2015 15:22:54, 177253 bytes
-| Driver: SynVHCoastingNB.wmv, 10/16/2015 15:23:09, 1821565 bytes
-| Driver: SynEdgePullsNB.wmv, 10/16/2015 15:22:59, 517951 bytes
-| Driver: SynPalmCheckNB.wmv, 10/16/2015 15:23:01, 670557 bytes
-| Driver: SynLinearScrollingNB.wmv, 10/16/2015 15:23:00, 797370 bytes
-| Driver: SynSensitivityNB.wmv, 10/16/2015 15:23:04, 400455 bytes
-| Driver: SynMomentumNB.wmv, 10/16/2015 15:23:01, 319815 bytes
-| Driver: SynTapZonesNB.wmv, 10/16/2015 15:23:05, 258590 bytes
-| Driver: SynTapZonesNB_win8.wmv, 10/16/2015 15:23:05, 258590 bytes
-| Driver: SynEdgeMotionNB.wmv, 10/16/2015 15:22:59, 1360700 bytes
-| Driver: SynSlowMotionNB.wmv, 10/16/2015 15:23:04, 517951 bytes
-| Driver: SynConstrainedMotionNB.wmv, 10/16/2015 15:22:59, 623675 bytes
-| Driver: SynWindowConstrainedNB.wmv, 10/16/2015 15:23:09, 588401 bytes
-| Driver: Syn3FHSlide.wmv, 10/16/2015 15:22:55, 243720 bytes
-| Driver: Syn3FHSlideNB.wmv, 10/16/2015 15:22:55, 202757 bytes
-| Driver: Syn3FTapActionCenter.wmv, 10/16/2015 15:22:56, 108227 bytes
-| Driver: Syn3FTapActionCenterNB.wmv, 10/16/2015 15:22:56, 105076 bytes
-| Driver: Syn3FTapCortana.wmv, 10/16/2015 15:22:56, 111378 bytes
-| Driver: Syn3FTapCortanaNB.wmv, 10/16/2015 15:22:56, 108227 bytes
-| Driver: Syn4FTapActionCenter.wmv, 10/16/2015 15:22:57, 111378 bytes
-| Driver: Syn4FTapActionCenterNB.wmv, 10/16/2015 15:22:57, 108227 bytes
-| Driver: Syn4FTapCortana.wmv, 10/16/2015 15:22:57, 114529 bytes
-| Driver: Syn4FTapCortanaNB.wmv, 10/16/2015 15:22:57, 111378 bytes
-| Driver: Syn3FClickActionCenterNB.wmv, 10/16/2015 15:22:55, 139737 bytes
-| Driver: Syn3FClickCortanaNB.wmv, 10/16/2015 15:22:55, 149190 bytes
-| Driver: Syn4FClickActionCenterNB.wmv, 10/16/2015 15:22:56, 158643 bytes
-| Driver: Syn4FClickCortanaNB.wmv, 10/16/2015 15:22:56, 164945 bytes
-| Driver: Syn3FVSlide.wmv, 10/16/2015 15:22:56, 476954 bytes
-| Driver: Syn3FVSlideNB.wmv, 10/16/2015 15:22:56, 372971 bytes
-| Driver: dpinst.exe, 10/16/2015 15:22:54, 1058488 bytes
-| Driver: SynSmbDrv.ini, 10/16/2015 15:23:05, 6087 bytes
-| Driver: SynLinearVScroll.mpg, 9/3/2008 19:27:28, 518694 bytes
-| Driver: SynWingGesture.wmv, 9/30/2013 21:40:00, 305841 bytes
-| Driver: SynWingGesture.html, 9/30/2013 21:40:00, 3164 bytes
-| Driver: Syn2FingerTappingNB.wmv, 10/16/2015 15:22:54, 101711 bytes
-| Driver: Syn2FingerTapping.html, 10/16/2015 15:22:54, 3214 bytes
-| Driver: Syn3FingerTapping.html, 10/16/2015 15:22:56, 3214 bytes
-| Driver: Syn4FingerTapping.html, 10/16/2015 15:22:57, 3214 bytes
-| Driver: Ckp2FingerScrolling.mpg, 7/2/2009 23:56:20, 382935 bytes
-| Driver: Ckp3FingerDown.mpg, 7/2/2009 23:56:20, 153456 bytes
-| Driver: Ckp3FingerFlick.mpg, 7/2/2009 23:56:20, 569095 bytes
-| Driver: CkpChiralMotion.mpg, 7/2/2009 23:56:20, 420858 bytes
-| Driver: CkpClickDrag.mpg, 7/2/2009 23:56:20, 271447 bytes
-| Driver: CkpLinearScroll.mpg, 7/2/2009 23:56:20, 427998 bytes
-| Driver: CkpLRClick.mpg, 7/2/2009 23:56:20, 284073 bytes
-| Driver: CkpMomentum.mpg, 7/2/2009 23:56:20, 328085 bytes
-| Driver: CkpPinch.mpg, 7/2/2009 23:56:20, 309339 bytes
-| Driver: CkpPivotRotate.mpg, 7/2/2009 23:56:20, 605893 bytes
-| Driver: CkpPivotRotate2.mpg, 9/26/2009 01:46:08, 779912 bytes
-| Driver: CkpTouchpadDisable.mpg, 7/2/2009 23:56:20, 293736 bytes
-| Driver: SynCom.dll, 10/16/2015 15:22:58, 419528 bytes
-| Driver: mouclass.sys, 7/10/2015 05:07:41, 59232 bytes
-| Driver: i8042prt.sys, 7/10/2015 03:20:52, 114688 bytes
-| Driver: SynTPCo31.dll, 10/16/2015 15:23:08, 255688 bytes
-| Driver: WdfCoInstaller01011.dll, 10/16/2015 15:23:10, 1806216 bytes
 
 ------------------------
 Disk & DVD/CD-ROM Drives
 ------------------------
       Drive: C:
- Free Space: 1.2 GB
+ Free Space: 1.6 GB
 Total Space: 66.0 GB
 File System: NTFS
       Model: ST2000LM003 HN-M201RAD
@@ -657,7 +343,7 @@ File System: NTFS
       Model: ST2000LM003 HN-M201RAD
 
       Drive: S:
- Free Space: 1597.4 GB
+ Free Space: 1575.5 GB
 Total Space: 1751.3 GB
 File System: NTFS
       Model: ST2000LM003 HN-M201RAD
@@ -1471,158 +1157,139 @@ Diagnostics
 
 Windows Error Reporting:
 +++ WER0 +++:
-Fault bucket , type 0
-Event Name: APPCRASH
+Fault bucket 125683163016, type 5
+Event Name: WindowsUpdateFailure3
 Response: Not available
 Cab Id: 0
 
 Problem signature:
-P1: UE4-ScrollFusion
-P2: 4.10.2
-P3: 568d9778
-P4: KERNELBASE.dll
-P5: 10.0.10240
-P6: 559f38c3
-P7: 00000001
-P8: 000000000002A1C8
-P9: !"S:\Unreal Projects\ScrollFusion\ScrollFusion.uproject" !AssertLog="Assertion failed: InterpTracks.Num() == GrInst->TrackInst.Num() [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.10\Engine\Source\Runtime\Engine\Private\Interpolation.cpp] [Line: 2037]
-P10: ++depot+UE4-Releases+4.10!S:/Epic Games/4.10/Engine/Binaries/Win64/!Editor!2818068
+P1: 10.0.10240.16683
+P2: 8024000b
+P3: C880122D-B3DF-412C-A824-E0566D268D0E
+P4: Download
+P5: 1
+P6: 0
+P7: 0
+P8: WSAutoUpdate
+P9: {855E8A7C-ECB4-4CA3-B045-1DFA50104289}
+P10: 0
 
 
 +++ WER1 +++:
 Fault bucket , type 0
-Event Name: APPCRASH
+Event Name: WindowsUpdateFailure3
 Response: Not available
 Cab Id: 0
 
 Problem signature:
-P1: UE4-ScrollFusion
-P2: 4.10.2
-P3: 568d9778
-P4: KERNELBASE.dll
-P5: 10.0.10240
-P6: 559f38c3
-P7: 00000001
-P8: 000000000002A1C8
-P9: !"S:/Unreal Projects/ScrollFusion/ScrollFusion.uproject"!AssertLog="Assertion failed: GrInst->TrackInst.Num() == GrInst->Group->InterpTracks.Num() [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.10\Engine\Source\Editor\Matinee\Private\Matinee.cpp] [Lin
-P10: ++depot+UE4-Releases+4.10!S:/Epic Games/4.10/Engine/Binaries/Win64/!Editor!2818068
+P1: 10.0.10240.16683
+P2: 8024000b
+P3: C880122D-B3DF-412C-A824-E0566D268D0E
+P4: Download
+P5: 1
+P6: 0
+P7: 0
+P8: WSAutoUpdate
+P9: {855E8A7C-ECB4-4CA3-B045-1DFA50104289}
+P10: 0
 
 
 +++ WER2 +++:
 Fault bucket , type 0
-Event Name: APPCRASH
+Event Name: WindowsUpdateFailure3
 Response: Not available
 Cab Id: 0
 
 Problem signature:
-P1: UE4-ScrollFusion
-P2: 4.10.2
-P3: 568d9778
-P4: KERNELBASE.dll
-P5: 10.0.10240
-P6: 559f38c3
-P7: 00000001
-P8: 000000000002A1C8
-P9: !"S:\Unreal Projects\ScrollFusion\ScrollFusion.uproject" !AssertLog="Assertion failed: InterpTracks.Num() == GrInst->TrackInst.Num() [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.10\Engine\Source\Runtime\Engine\Private\Interpolation.cpp] [Line: 2037]
-P10: ++depot+UE4-Releases+4.10!S:/Epic Games/4.10/Engine/Binaries/Win64/!Editor!2818068
+P1: 10.0.10240.16683
+P2: 8024000b
+P3: C880122D-B3DF-412C-A824-E0566D268D0E
+P4: Download
+P5: 1
+P6: 0
+P7: 0
+P8: WSAutoUpdate
+P9: {855E8A7C-ECB4-4CA3-B045-1DFA50104289}
+P10: 0
 
 
 +++ WER3 +++:
 Fault bucket , type 0
-Event Name: APPCRASH
+Event Name: WindowsUpdateFailure3
 Response: Not available
 Cab Id: 0
 
 Problem signature:
-P1: UE4-ScrollFusion
-P2: 4.10.2
-P3: 568d9778
-P4: KERNELBASE.dll
-P5: 10.0.10240
-P6: 559f38c3
-P7: 00000001
-P8: 000000000002A1C8
-P9: !"S:/Unreal Projects/ScrollFusion/ScrollFusion.uproject"!AssertLog="Assertion failed: GrInst->TrackInst.Num() == GrInst->Group->InterpTracks.Num() [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.10\Engine\Source\Editor\Matinee\Private\Matinee.cpp] [Lin
-P10: ++depot+UE4-Releases+4.10!S:/Epic Games/4.10/Engine/Binaries/Win64/!Editor!2818068
+P1: 10.0.10240.16683
+P2: 8024000b
+P3: C880122D-B3DF-412C-A824-E0566D268D0E
+P4: Download
+P5: 1
+P6: 0
+P7: 0
+P8: WSAutoUpdate
+P9: {855E8A7C-ECB4-4CA3-B045-1DFA50104289}
+P10: 0
 
 
 +++ WER4 +++:
-Fault bucket 125250904499, type 5
-Event Name: MpTelemetry
+Fault bucket , type 0
+Event Name: WindowsUpdateFailure3
 Response: Not available
 Cab Id: 0
 
 Problem signature:
-P1: Windows Defender (77BDAF73-B396-481F-9042-AD358843EC24)
-P2: 4.8.10240.16384
-P3: TimeOut
-P4: 1.1.12400.0
-P5: fixed
-P6: 4 / 2049+
-P7: 5 / not boot
-P8: 
-P9: 
-P10: 
+P1: 10.0.10240.16683
+P2: 8024000b
+P3: C880122D-B3DF-412C-A824-E0566D268D0E
+P4: Download
+P5: 1
+P6: 0
+P7: 0
+P8: WSAutoUpdate
+P9: {855E8A7C-ECB4-4CA3-B045-1DFA50104289}
+P10: 0
 
 
 +++ WER5 +++:
-Fault bucket 125250904499, type 5
-Event Name: MpTelemetry
+Fault bucket 133238781750, type 5
+Event Name: MoAppHangXProc
 Response: Not available
 Cab Id: 0
 
 Problem signature:
-P1: Windows Defender (77BDAF73-B396-481F-9042-AD358843EC24)
-P2: 4.8.10240.16384
-P3: TimeOut
-P4: 1.1.12400.0
-P5: fixed
-P6: 4 / 2049+
-P7: 5 / not boot
-P8: 
-P9: 
+P1: Microsoft.ZuneMusic_3.6.15131.0_x64__8wekyb3d8bbwe
+P2: praid:Microsoft.ZuneMusic
+P3: 10.0.10240.16425
+P4: 55bec0d3
+P5: c429
+P6: 4194368
+P7: NO_PACKAGE
+P8: RuntimeBroker.exe
+P9: 10.0.10240.16384
 P10: 
 
 
 +++ WER6 +++:
-Fault bucket , type 0
-Event Name: APPCRASH
+Fault bucket 125250904499, type 5
+Event Name: MpTelemetry
 Response: Not available
 Cab Id: 0
 
 Problem signature:
-P1: UE4-ScrollFusion
-P2: 4.10.2
-P3: 568d9778
-P4: KERNELBASE.dll
-P5: 10.0.10240
-P6: 559f38c3
-P7: 00000001
-P8: 000000000002A1C8
-P9: !"S:\Unreal Projects\ScrollFusion\ScrollFusion.uproject" !AssertLog="Assertion failed: InterpTracks.Num() == GrInst->TrackInst.Num() [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.10\Engine\Source\Runtime\Engine\Private\Interpolation.cpp] [Line: 2037]
-P10: ++depot+UE4-Releases+4.10!S:/Epic Games/4.10/Engine/Binaries/Win64/!Editor!2818068
+P1: Windows Defender (77BDAF73-B396-481F-9042-AD358843EC24)
+P2: 4.8.10240.16384
+P3: TimeOut
+P4: 1.1.12400.0
+P5: fixed
+P6: 4 / 2049+
+P7: 5 / not boot
+P8: 
+P9: 
+P10: 
 
 
 +++ WER7 +++:
-Fault bucket , type 0
-Event Name: APPCRASH
-Response: Not available
-Cab Id: 0
-
-Problem signature:
-P1: UE4-ScrollFusion
-P2: 4.10.2
-P3: 568d9778
-P4: KERNELBASE.dll
-P5: 10.0.10240
-P6: 559f38c3
-P7: 00000001
-P8: 000000000002A1C8
-P9: !"S:/Unreal Projects/ScrollFusion/ScrollFusion.uproject"!AssertLog="Assertion failed: GrInst->TrackInst.Num() == GrInst->Group->InterpTracks.Num() [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.10\Engine\Source\Editor\Matinee\Private\Matinee.cpp] [Lin
-P10: ++depot+UE4-Releases+4.10!S:/Epic Games/4.10/Engine/Binaries/Win64/!Editor!2818068
-
-
-+++ WER8 +++:
 Fault bucket , type 0
 Event Name: MpTelemetry
 Response: Not available
@@ -1637,25 +1304,44 @@ P5: fixed
 P6: 4 / 2049+
 P7: 5 / not boot
 P8: 
+P9: 
+P10: 
+
+
++++ WER8 +++:
+Fault bucket -1264652977, type 1
+Event Name: APPCRASH
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: AwesomiumProcess
+P2: 1.6.5.0
+P3: 4f3d61b6
+P4: Awesomium.dll
+P5: 1.6.5.0
+P6: 4f3d61b3
+P7: c0000005
+P8: 0007ff4e
 P9: 
 P10: 
 
 
 +++ WER9 +++:
 Fault bucket , type 0
-Event Name: MpTelemetry
+Event Name: APPCRASH
 Response: Not available
 Cab Id: 0
 
 Problem signature:
-P1: Windows Defender (77BDAF73-B396-481F-9042-AD358843EC24)
-P2: 4.8.10240.16384
-P3: TimeOut
-P4: 1.1.12400.0
-P5: fixed
-P6: 4 / 2049+
-P7: 5 / not boot
-P8: 
+P1: AwesomiumProcess
+P2: 1.6.5.0
+P3: 4f3d61b6
+P4: Awesomium.dll
+P5: 1.6.5.0
+P6: 4f3d61b3
+P7: c0000005
+P8: 0007ff4e
 P9: 
 P10: 
 
