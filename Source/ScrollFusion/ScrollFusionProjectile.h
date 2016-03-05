@@ -11,7 +11,7 @@ enum class EElement : uint8
 	EL_Water 	UMETA(DisplayName = "Water"),
 	EL_Fire 	UMETA(DisplayName = "Fire"),
 	EL_Earth 	UMETA(DisplayName = "Earth"),
-	EL_Air 	UMETA(DisplayName = "Air"),
+	EL_Air 		UMETA(DisplayName = "Air"),
 };
 
 UENUM(BlueprintType)
